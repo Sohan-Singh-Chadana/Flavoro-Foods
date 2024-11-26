@@ -57,3 +57,9 @@ The **Flavoro Foods Website** is a modern, feature-rich frontend e-commerce plat
 ---
 
 This project lays the foundation for a scalable and user-friendly e-commerce platform. Future enhancements can include backend integration for real-time data and payment gateway setup.
+
+#### Project Screenshot :
+
+## ![Flavoro Foods Banner](./public/flavoro-foods-banner.png)
+
+#### Project Live Demo :

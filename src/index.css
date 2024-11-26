@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+}
+
+html {
+  @apply scrollbar-thin scrollbar-thumb-zinc-400 scrollbar-track-gray-200;
+}
+
+body {
+  background: #f4f4f4;
+  @apply dark:bg-zinc-900 dark:text-white;
+}
+
+.container {
+  @apply px-3 md:px-0;
+}
+
+.category-section {
+  @apply py-3 my-0 scrollbar-thin scrollbar-thumb-gray-200 dark:scrollbar-thumb-zinc-700  scrollbar-track-transparent;
+}
+
+/* * Quantity button styles */
+.Qun-btn {
+  @apply border-2 border-gray-600 text-gray-600 hover:text-white hover:bg-green-500 hover:border-none rounded-md p-1 text-xl transition-all duration-200 ease-linear cursor-pointer dark:text-zinc-100 dark:border-zinc-100;
+}
+
+/* * Add to cart button styles */
+.add-cart-btn {
+  @apply py-2 px-3 text-white bg-green-500 hover:bg-green-600 rounded-lg text-lg transition duration-200 ease-in tracking-wide;
+}
+
+/* * Category Menu */
+.category-btn {
+  @apply px-3 py-2  font-medium rounded-lg  duration-200 ease-linear text-lg tracking-wide  hover:bg-green-400 hover:dark:bg-green-500 hover:text-white;
+}
+
+/* * Custom Styles grid Templates */
+.grid-custom {
+  @apply grid grid-cols-1 gap-10 place-items-center;
+}
+
+@screen sm {
+  .grid-custom {
+    @apply grid-cols-smCustomGrid;
+  }
+}
+
+@screen md {
+  .grid-custom {
+    @apply grid-cols-mdCustomGrid md:gap-5;
+  }
+}
+
+@screen lgPlus {
+  .grid-custom {
+    @apply grid-cols-lgCustomGrid;
+  }
+}
+
+@screen xl {
+  .grid-custom {
+    @apply gap-10;
+  }
+}
+
+@screen 2xl {
+  .grid-custom {
+    @apply grid-cols-xlCustomGrid;
+  }
+}
