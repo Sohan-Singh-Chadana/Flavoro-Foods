@@ -63,3 +63,4 @@ This project lays the foundation for a scalable and user-friendly e-commerce pla
 ## ![Flavoro Foods Banner](./public/flavoro-foods-banner.png)
 
 #### Project Live Demo :
+[Live Demo of Flavoro Foods](https://flavro-food.netlify.app)
